@@ -8,6 +8,14 @@ let units = {
             'millisekund',
         ]
     },
+    s: {
+        v: [
+            100,
+        ],
+        u: [
+            'millisekund',
+        ]
+    },
     min: {
         v: [
             6000,
