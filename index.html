@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Converter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="title">
+                <h1>Vaqt generatori</h1>
+            </div>
+            <div class="inputTime">
+                <label for="time">Vaqt: </label> 
+                <input type="number" id="time" min="0">
+                <label for="unit">Birligi: </label>
+                <select name="unit" id="unit">
+                    <option value="ms">Millisekund</option>
+                    <option value="s">Sekund</option>
+                    <option value="min">Minut</option>
+                    <option value="h">Soat</option>
+                    <option value="d">Kun</option>
+                    <option value="w">Hafta</option>
+                    <option value="mth">Oy</option>
+                    <option value="y">Yil</option>
+                    <option value="asr">Asr</option>
+                </select>
+                <br>
+                <button id="outputNatija">Hisoblash</button>
+            </div>
+            <div class="outputTime">
+                <p class="inputUnitTime"></p>
+                <ol class="list">
+
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
